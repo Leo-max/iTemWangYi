@@ -1,0 +1,35 @@
+@charset "utf-8";
+html,body,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,fieldset,legend,form,input,textarea,p,article,aside{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+ul,ol{
+	list-style:none;
+}
+body{
+	font-size:16px;
+	/*font-family:"宋体";*/
+}
+h1,h2,h3,h4,h5,h6{
+	font-size:16px;
+}
+b,strong,i,em{
+	font-style:normal;
+	font-weight:normal;
+	/*font-size:16px;*/
+}
+.clearfn:after{
+	content:"";
+	clear:both;
+	display:block;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+}
+.clearfn{
+	zoom:1;
+}
